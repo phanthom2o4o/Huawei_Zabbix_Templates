@@ -1,12 +1,12 @@
 # Huawei_Zabbix_Templates
-Here are same Zabbix Templates for same Huawei devices like 
+Here are same Zabbix 5 EXTRA Templates for same Huawei devices like 
 
-- Switches Series S5700 and Series S6700  
-- Router Series NE20 and Series NE40
+- Switches Series S57xx and Series S67xx
+- Router Series NEx0 
 
 Intstall Procedure :
 
-- For Switches : Just import the template
-- For NE20/NE40 Routers : First Import the Value Map, after import the template and put the script "asname" on your 
+- For Template to Optical Modules Info and Template Extra Inventory : Just import the template
+- For Template Net Huawei VRP SNMPv2 - BGP : First Import the BGP ValueMap, after import the template and put the script "asname" on your 
   Zabbix's external script dir ( usually /usr/lib/zabbix/externalscripts on deb/ubuntu install )
    
